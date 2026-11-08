@@ -1,0 +1,4 @@
+#/bin/sh
+
+gcc -Wall -O2 -o cowfetch cowfetch.c
+sudo mv cowfetch /usr/bin/
